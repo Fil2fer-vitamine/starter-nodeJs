@@ -6,7 +6,7 @@ const port = 8080;
 
 // First route
 app.get("/hello", (req, res) => {
-  res.send({ message: "Hello World !" });
+  res.send({ yo: "bonjour", message: "Hello World !!!" });
 });
 
 // Bind express server on port 8080
